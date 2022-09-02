@@ -1,2 +1,2 @@
-class ApplicationController < Sinatra::BasicObject
-end
+#class ApplicationController < Sinatra::BasicObject
+#end
