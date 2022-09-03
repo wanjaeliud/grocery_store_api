@@ -12,5 +12,7 @@ gem 'require_all'
 gem 'pry'
 gem 'rerun'
 gem 'puma'
+gem "rack-contrib", "~> 2.3"
+
 
 
