@@ -4,7 +4,7 @@
  - [Description](#description)
  - [Requirements](#requirements)
  - [Features](#features)
- - [Runninh the server](#running-the-server)
+ - [Running the server](#running-the-server)
  - [Contributors Info](#contributors-Info)
 
 ## Group project 
