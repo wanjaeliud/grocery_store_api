@@ -8,6 +8,13 @@ puts "Starting Seeding"
 # Product.create(image: "https://images.unsplash.com/photo-1598965675045-45c5e72c7d05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",name: "Eggs",description: "Get both kienyeji and layers available sold per crate",price: 390)
 
 
-
+# #spinach
+# Event.create(image: "https://images.unsplash.com/photo-1515363578674-99f41329ab4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1467&q=80",date:"07/07/2022 ",title:"Best spinach species",venue:"Muranga County Market",entry:300,time:"8:00")
+# #tomato
+# Event.create(image: "https://images.unsplash.com/photo-1594057687713-5fd14eed1c17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1527&q=80",date:"17/09/2022",title:"World Tomato Day",venue:"Naivasha ADC",entry:0,time:"9:00")
+# #carrot
+# Event.create(image: "https://images.unsplash.com/photo-1589927986089-35812388d1f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",date:"05/10/2022",title:"Carrot for vision",venue:"Nyeri Farmers Sacco",entry:200,time:"9:00")
+# #banana
+# Event.create(image: "https://images.unsplash.com/photo-1603833665858-e61d17a86224?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80",date:"09/12/2022",title:"Banana Value Addition",venue:"Kisii Farmers Center",entry:500,time:"9:00")
 
 puts "Ended Seeding"
