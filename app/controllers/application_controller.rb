@@ -40,6 +40,11 @@ end
 #   newProduct.update( name: params[:name])
 #   newProduct.to_json
 # end
+get '/events' do
+    events = Event.all
+    events.to_json
+  end
+
 
 
 
