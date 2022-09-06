@@ -34,12 +34,17 @@ delete '/products/:id' do
 end
 
 
-# patch
-# patch '/products/:id' do
-#   newProduct = Product.find(params[:id])
-#   newProduct.update( name: params[:name])
-#   newProduct.to_json
-# end
+patch
+patch '/products/:id' do
+  newProduct = Product.find(params[:id])
+  newProduct.update( name: params[:name])
+  newProduct.to_json
+end
+
+get '/events' do
+  products = Event.all
+  products.to_json
+end
 
 
 
