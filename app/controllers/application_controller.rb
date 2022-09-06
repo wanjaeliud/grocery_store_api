@@ -34,10 +34,14 @@ delete '/products/:id' do
 end
 
 
-patch
 patch '/products/:id' do
   newProduct = Product.find(params[:id])
-  newProduct.update( name: params[:name])
+  newProduct.update( 
+    image:params[:image],
+    name:params[:name],
+    description:params[:description],
+    price:params[:price]
+    )
   newProduct.to_json
 end
 
